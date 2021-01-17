@@ -1,0 +1,530 @@
+.logo,h1,h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,.description,.descriptionbold {
+    color: #9A0404;
+}
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10px;
+    font-size: 4em;
+    color: #021526;
+    position: relative;
+}
+#logoimg {
+    position: relative;
+    left: 10px;
+    bottom: 6px;
+}
+.logo:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color:#2A678C;
+}
+a:hover {
+    text-decoration: underline;
+}
+.current {
+    color: #BECDE1;
+    text-decoration: underline;
+}
+.nav1,.nav3,header {
+    background-color:#BECDE1;
+    color: #2A678C;
+}
+.nav2 {
+    background-color: white;
+}
+.nav4  {
+    background-color: #2A678C;
+    color: white;
+}
+.nav4 .story {
+    color: white;
+}
+nav li {
+    display: inline-block;
+    padding: 0px 120px;
+}
+.nav1 {
+    position: absolute;
+    left: 750px;
+    top: 25px;
+}
+.nav1 li{
+    display: inline-block;
+    padding: 10px 10px 10px 50px;
+}
+.nav2 {
+    position: relative;
+}
+.nav2 li {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+#home {
+    font-size: 1em;
+    margin-left: 30px;
+}
+#home img {
+    padding: 0px 10px 0px 0px;
+}
+#sale {
+    color: #9A0404;
+}
+.nav4 li {
+    display: block;
+}
+.nav4 h3 {
+    margin-left: 0px;
+}
+.cta {
+    background-color:white;
+    color:#2A678C;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cta2 {
+    background-color:#DB0E0E;
+    color:white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.cta:hover {
+    background-color:#2A678C;
+    color:white;
+    text-decoration: none;
+
+}
+
+.contact {
+   font-size: 1.75em;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+.nav3 {
+    position: relative;
+}
+.nav3 div {
+    display: inline-block;
+}
+
+.nav3 .follow {
+   position: relative;
+   padding: 10px 70px 10px 40px;   
+}
+.nav3 .contact {
+    position: absolute;
+    padding: 10px 100px 10px 10px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 15px;
+    margin-right: 20px;    
+}
+.icons {
+    position: absolute;
+    bottom: 15px;
+}
+.yt, .ig, .fb, .t {
+    padding: 10px 10px 10px 5px;
+    margin-left: 20px;
+}
+
+.nav4 {
+    position: relative;
+
+}
+.nav4 div {
+    display: inline-block;
+    padding: 10px 100px 10px 100px;
+    text-align: left;
+    background-size: cover;
+    margin-left: 5px;
+}
+.about {
+    margin-left: -40px;
+}
+.info {
+    margin-left: -40px;
+}
+.nav1 img {
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+/* home page */
+  
+.welcome {
+        background-image: url('../Images/Rectangle 3.png');
+        min-height: 85vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: left;
+        background-position-y: bottom;       
+    }
+
+.description {   
+    position: absolute;
+    left: 500px;
+    right: 250px;
+    top: 300px;
+    font-size: 1.75em;
+    text-align: right;
+    font-style: italic;   
+    margin-right: 100px;   
+}
+
+.description .ctahome {
+     margin-left: 50px;
+     font-style: normal;   
+     font-size: 0.8em;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ /* product page */
+
+ .jackets {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 150px;
+     padding: 80px 70px 80px 70px;
+ }
+
+ .jackets a {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+ }
+ .jackets p {
+     color: #2A678C;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 1.25em;
+ }
+
+/* product specific page */
+
+
+.prodimg{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    max-width: 50px;
+}
+.productdetails {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    max-width: 1000px;
+}
+ .prodspec {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-left: 100px;
+     margin-top: 100px;
+
+ }
+ .price {
+     font-size: 2em;
+     color: #2A678C;
+ }
+ .jacketdes {
+     max-width: 500px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ main h2 {
+     font-style: italic;
+     font-size: 1.5em;
+     color: #9A0404;
+ }
+ main h1 {
+     color: #2A678C;
+     font-size: 2em;
+ }
+ .reviews {
+     margin-left: 100px;
+     margin-top: 150px;
+     margin-bottom: 100px;
+     margin-right: 100px;
+ }
+ .cta2{
+     max-width: fit-content;
+ }
+
+ .sizes {
+     max-width: 300px;
+ }
+.productdetails p {
+    font-size: 1.25em;
+}
+
+/* Our Story */
+
+.storypage {
+    background-image: url('../Images/mountains.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: bottom; 
+}
+.storypage p {
+    color: #5e0303;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.storytext {
+    background: rgba(255, 255, 255, 0.65);
+    padding: 30px 10px 30px 10px;
+    border-radius: 1000px;
+}
+.title {
+    padding: 50px 0px 0px 0px;
+    color: #9A0404;
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+#currentstory {
+    color: black;
+}
+
+/* Contact */
+
+#currentcontact {
+    color: white;
+}
+.contactpage h1 {
+    text-align: left;
+    margin-left: 100px;
+}
+.contactpage {
+    background-image: url('../Images/skiier.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top; 
+    max-height: 85vh;
+}
+.contactpage img {
+    margin-left: 100px;
+}
+.contactpage p {
+    margin-left:250px;
+    color: black;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    position: relative;
+    bottom: 400px;
+    padding: 40px 0px 30px 0px;
+}
+.contactinfoimg {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 70px;
+}
+
+/* checkout success */
+
+.success {
+    background-image: url('../Images/success.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top; 
+    max-height: 85vh;
+}
+.order {
+    text-align: center;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.65);
+    padding: 20px;
+    margin:auto;
+}
+.order p {
+    color: #2A678C;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.order h1 {
+    font-size: 3em;
+    color: #00AF4B;
+}
+
+/* basket */
+#currentbasket {
+    color: white;
+}
+
+.basketcontents {
+    display: flex;
+    justify-content: center;
+    padding: 100px;   
+}
+
+/* checkout */
+.basketinfo {
+    background-color: #E2E2E2;
+    max-width: 300px;
+    background-size: cover;
+    max-height: 85vh;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    padding: 10px 0px 10px 0px;
+}
+.basketinfo img {
+    margin-left: 80px;
+}
+.basketinfo h2,h3 {
+    margin: 20px 20px 30px 20px;
+}
+.paymentmethod {
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+.paymentmethod img {
+    max-width: 500px;
+}
+.paymentmethod h1 {
+    font-size: 2em;
+}
+.paymentmethod h2 {
+    font-size: 1em;
+}
+.form {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    position: absolute;
+    top: 370px;
+    left: 525px;
+}    
+form input,select{
+    margin: 10px 30px 10px 0px;
+}
+form > * {
+    display: grid;
+}
+#hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 400px) {
+
+    .description {
+       max-width: 150px;
+       font-size: 1em;
+       position: relative;
+       text-align: left;
+       left: 30px;
+       bottom: 150px;
+       top: 50px;   
+    }
+    .description .ctahome {  
+        font-size: 0.5em;
+    }
+    .nav2 {
+        display: none;
+    }
+    .logo {
+        font-size: 1em;
+    }
+    .nav1 {
+        display: none;
+        position: absolute;
+        max-width: 200px;
+        left: 200px;
+        right: 8px;
+        top: 68px;
+        font-size: 0.75em;
+    }
+    
+    #hamburger-menu{
+        display: none;
+    }
+    #hamburger-menu:checked ~ .nav1 {
+        display: block;
+    }
+    .nav1 ul {
+        margin-left: 30px;
+        padding: 0;
+    }
+    .nav1 li {
+        max-width: 100px;
+        padding: 10px;
+    }
+  
+    .welcome {
+        background-size: cover;
+        width: 100%;
+        background-position-x: left;
+        background-position-y: top;
+        background-position: -30px;
+
+    }
+    header img {
+        max-width: 40px;
+        margin-top: 10px;
+    }
+    .cta {
+        padding: 2px 5px;
+        font-size: 0.75em;
+        font-weight: 700;
+    }
+    .nav4 div {
+        padding: 10px 10px 10px 10px;
+    }
+    .nav4 h3,h2 {
+        padding: 0px;
+    }
+    .contact {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        font-size: 1em;
+        left: 100px;
+        bottom: 30px;
+        top: 0px;
+        padding: 10px 0px;
+    }
+    .follow {
+        font-size: 0.5em;
+        top: 10px;
+    }
+    .nav3 img {
+        max-width: 12px; 
+        position: relative;
+        top: 10px;
+        bottom: 20px;
+        padding: 0;
+        right: 80px;
+    }
+
+
+}
